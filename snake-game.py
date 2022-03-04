@@ -32,11 +32,11 @@ for i in range(4):
 
 command = 'c'
 dice = 0
-snake = [21, 31, 44, 59, 74, 83, 95]
-dest_snake = [8, 14, 26, 41, 49, 63, 25]
+snake = (21, 31, 44, 59, 74, 83, 95)
+dest_snake = (8, 14, 26, 41, 49, 63, 25)
 
-ladder = [7, 11, 23, 39, 46, 53, 61]
-dest_ladder = [32, 29, 48, 54, 81, 77, 75]
+ladder = (7, 11, 23, 39, 46, 53, 61)
+dest_ladder = (32, 29, 48, 54, 81, 77, 75)
 flag = 0
 
 while True:

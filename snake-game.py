@@ -82,14 +82,14 @@ while True:
         if player[i] == 100:
             print("{}{} is at {} position{}".format(player_color[i], player_name[i], player[i], RESET))
             print("*" * 40)
-            text = "{}{} Has Won!! Congress".format(player_color[i], player_name[i])
+            text = "{}{} Has Won!! Congrats!!".format(player_color[i], player_name[i])
             print("**{0}{1}**".format(text.center(41), RESET))
             print("*" * 40)
             print()
 
             print("Final Positions :")
-            for i in range(4):
-                print("{}{} is at {}{}".format(player_color[i], player_name[i], player[i], RESET))
+            for j in range(4):
+                print("{}{} is at {}{}".format(player_color[j], player_name[j], player[j], RESET))
             flag = 1
             break
 
